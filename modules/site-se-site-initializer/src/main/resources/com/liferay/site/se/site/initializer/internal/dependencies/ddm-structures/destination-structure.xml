@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+
+<root>
+	<structure>
+		<name>Destination</name>
+		<description></description>
+		<definition>
+			<![CDATA[
+				{
+					"availableLanguageIds": ["en_US"],
+					"successPage":
+					{
+						"body":
+						{},
+						"title":
+						{},
+						"enabled": false
+					},
+					"defaultLanguageId": "en_US",
+					"fields": [
+					{
+						"indexType": "keyword",
+						"repeatable": false,
+						"dataType": "string",
+						"predefinedValue":
+						{
+							"en_US": ""
+						},
+						"name": "Textbiyy",
+						"localizable": true,
+						"tip":
+						{
+							"en_US": ""
+						},
+						"readOnly": false,
+						"label":
+						{
+							"en_US": "Title"
+						},
+						"type": "text",
+						"showLabel": true,
+						"required": false
+					},
+					{
+						"dataType": "image",
+						"predefinedValue":
+						{
+							"en_US": ""
+						},
+						"readOnly": false,
+						"label":
+						{
+							"en_US": "Image"
+						},
+						"type": "ddm-image",
+						"showLabel": true,
+						"required": false,
+						"indexType": "text",
+						"fieldNamespace": "ddm",
+						"repeatable": false,
+						"name": "Image1qfb",
+						"localizable": true,
+						"tip":
+						{
+							"en_US": ""
+						}
+					},
+					{
+						"dataType": "html",
+						"predefinedValue":
+						{
+							"en_US": ""
+						},
+						"readOnly": false,
+						"label":
+						{
+							"en_US": "Content"
+						},
+						"type": "ddm-text-html",
+						"showLabel": true,
+						"required": false,
+						"indexType": "text",
+						"fieldNamespace": "ddm",
+						"repeatable": false,
+						"name": "Content",
+						"localizable": true,
+						"tip":
+						{
+							"en_US": ""
+						}
+					},
+					{
+						"dataType": "geolocation",
+						"predefinedValue":
+						{
+							"en_US": ""
+						},
+						"readOnly": false,
+						"label":
+						{
+							"en_US": "Geolocation"
+						},
+						"type": "ddm-geolocation",
+						"showLabel": true,
+						"required": false,
+						"indexType": "keyword",
+						"fieldNamespace": "ddm",
+						"repeatable": false,
+						"name": "Geolocation7xe3",
+						"localizable": false,
+						"tip":
+						{
+							"en_US": ""
+						}
+					}]
+				}
+			]]>
+		</definition>
+		<layout>
+			<![CDATA[
+				{
+					"pages": [
+					{
+						"rows": [
+						{
+							"columns": [
+							{
+								"size": 12,
+								"fieldNames": ["Textbiyy"]
+							}]
+						},
+						{
+							"columns": [
+							{
+								"size": 12,
+								"fieldNames": ["Image1qfb"]
+							}]
+						},
+						{
+							"columns": [
+							{
+								"size": 12,
+								"fieldNames": ["Content"]
+							}]
+						},
+						{
+							"columns": [
+							{
+								"size": 12,
+								"fieldNames": ["Geolocation7xe3"]
+							}]
+						}],
+						"title":
+						{
+							"[$LOCALE_DEFAULT$]": ""
+						}
+					}],
+					"paginationMode": "single-page",
+					"defaultLanguageId": "[$LOCALE_DEFAULT$]"
+				}
+			]]>
+		</layout>
+	</structure>
+</root>
