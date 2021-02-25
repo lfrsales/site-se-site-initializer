@@ -1,3 +1,6 @@
 dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.style.book.api"
 	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
 }
+
+jar.from "classes"

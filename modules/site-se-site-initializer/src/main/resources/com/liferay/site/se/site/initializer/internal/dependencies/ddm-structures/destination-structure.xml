@@ -7,156 +7,159 @@
 		<definition>
 			<![CDATA[
 				{
-					"availableLanguageIds": ["en_US"],
-					"successPage":
-					{
-						"body":
-						{},
-						"title":
-						{},
-						"enabled": false
-					},
+					"availableLanguageIds": [
+						"en_US"
+					],
 					"defaultLanguageId": "en_US",
 					"fields": [
-					{
-						"indexType": "keyword",
-						"repeatable": false,
-						"dataType": "string",
-						"predefinedValue":
 						{
-							"en_US": ""
+							"dataType": "string",
+							"indexType": "keyword",
+							"label": {
+								"en_US": "Title"
+							},
+							"localizable": true,
+							"name": "Textbiyy",
+							"predefinedValue": {
+								"en_US": ""
+							},
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							},
+							"type": "text"
 						},
-						"name": "Textbiyy",
-						"localizable": true,
-						"tip":
 						{
-							"en_US": ""
+							"dataType": "image",
+							"fieldNamespace": "ddm",
+							"indexType": "text",
+							"label": {
+								"en_US": "Image"
+							},
+							"localizable": true,
+							"name": "Image1qfb",
+							"predefinedValue": {
+								"en_US": ""
+							},
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							},
+							"type": "ddm-image"
 						},
-						"readOnly": false,
-						"label":
 						{
-							"en_US": "Title"
+							"dataType": "html",
+							"fieldNamespace": "ddm",
+							"indexType": "text",
+							"label": {
+								"en_US": "Content"
+							},
+							"localizable": true,
+							"name": "Content",
+							"predefinedValue": {
+								"en_US": ""
+							},
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							},
+							"type": "ddm-text-html"
 						},
-						"type": "text",
-						"showLabel": true,
-						"required": false
-					},
-					{
-						"dataType": "image",
-						"predefinedValue":
 						{
-							"en_US": ""
-						},
-						"readOnly": false,
-						"label":
-						{
-							"en_US": "Image"
-						},
-						"type": "ddm-image",
-						"showLabel": true,
-						"required": false,
-						"indexType": "text",
-						"fieldNamespace": "ddm",
-						"repeatable": false,
-						"name": "Image1qfb",
-						"localizable": true,
-						"tip":
-						{
-							"en_US": ""
+							"dataType": "geolocation",
+							"fieldNamespace": "ddm",
+							"indexType": "keyword",
+							"label": {
+								"en_US": "Geolocation"
+							},
+							"localizable": false,
+							"name": "Geolocation7xe3",
+							"predefinedValue": {
+								"en_US": ""
+							},
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							},
+							"type": "ddm-geolocation"
 						}
-					},
-					{
-						"dataType": "html",
-						"predefinedValue":
-						{
-							"en_US": ""
+					],
+					"successPage": {
+						"body": {
 						},
-						"readOnly": false,
-						"label":
-						{
-							"en_US": "Content"
-						},
-						"type": "ddm-text-html",
-						"showLabel": true,
-						"required": false,
-						"indexType": "text",
-						"fieldNamespace": "ddm",
-						"repeatable": false,
-						"name": "Content",
-						"localizable": true,
-						"tip":
-						{
-							"en_US": ""
+						"enabled": false,
+						"title": {
 						}
-					},
-					{
-						"dataType": "geolocation",
-						"predefinedValue":
-						{
-							"en_US": ""
-						},
-						"readOnly": false,
-						"label":
-						{
-							"en_US": "Geolocation"
-						},
-						"type": "ddm-geolocation",
-						"showLabel": true,
-						"required": false,
-						"indexType": "keyword",
-						"fieldNamespace": "ddm",
-						"repeatable": false,
-						"name": "Geolocation7xe3",
-						"localizable": false,
-						"tip":
-						{
-							"en_US": ""
-						}
-					}]
+					}
 				}
 			]]>
 		</definition>
 		<layout>
 			<![CDATA[
 				{
+					"defaultLanguageId": "[$LOCALE_DEFAULT$]",
 					"pages": [
-					{
-						"rows": [
 						{
-							"columns": [
-							{
-								"size": 12,
-								"fieldNames": ["Textbiyy"]
-							}]
-						},
-						{
-							"columns": [
-							{
-								"size": 12,
-								"fieldNames": ["Image1qfb"]
-							}]
-						},
-						{
-							"columns": [
-							{
-								"size": 12,
-								"fieldNames": ["Content"]
-							}]
-						},
-						{
-							"columns": [
-							{
-								"size": 12,
-								"fieldNames": ["Geolocation7xe3"]
-							}]
-						}],
-						"title":
-						{
-							"[$LOCALE_DEFAULT$]": ""
+							"rows": [
+								{
+									"columns": [
+										{
+											"fieldNames": [
+												"Textbiyy"
+											],
+											"size": 12
+										}
+									]
+								},
+								{
+									"columns": [
+										{
+											"fieldNames": [
+												"Image1qfb"
+											],
+											"size": 12
+										}
+									]
+								},
+								{
+									"columns": [
+										{
+											"fieldNames": [
+												"Content"
+											],
+											"size": 12
+										}
+									]
+								},
+								{
+									"columns": [
+										{
+											"fieldNames": [
+												"Geolocation7xe3"
+											],
+											"size": 12
+										}
+									]
+								}
+							],
+							"title": {
+								"[$LOCALE_DEFAULT$]": ""
+							}
 						}
-					}],
-					"paginationMode": "single-page",
-					"defaultLanguageId": "[$LOCALE_DEFAULT$]"
+					],
+					"paginationMode": "single-page"
 				}
 			]]>
 		</layout>

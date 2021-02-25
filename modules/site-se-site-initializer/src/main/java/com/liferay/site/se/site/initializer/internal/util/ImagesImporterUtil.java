@@ -68,6 +68,8 @@ public class ImagesImporterUtil {
 			fileEntries.add(fileEntry);
 		}
 
+		zipFile.close();
+
 		return fileEntries;
 	}
 

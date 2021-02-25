@@ -1,0 +1,5 @@
+{
+	"className": "com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry",
+	"ddmTemplateKey": "CLEAN-SELECT-BOX-LANGUAGE-SELECTOR",
+	"name": "Clean Select Box"
+}

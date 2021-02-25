@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element index-type="keyword" instance-id="lmtcnzdi" name="Textbiyy" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Rome]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="bbwiumoz" name="Image1qfb" type="image">
+		<dynamic-content language-id="en_US"><![CDATA[[$JSON_rome.jpg$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="caynxjsi" name="Content" type="text_area">
+		<dynamic-content language-id="en_US"><![CDATA[<p>Rome is the capital city and a special comune of Italy, as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km², it is also the country's most populated comune.</p>]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="keyword" instance-id="lkklczgn" name="Geolocation7xe3" type="ddm-geolocation">
+		<dynamic-content language-id="en_US">
+			<![CDATA[
+				{
+					"latitude": 41.9027357,
+					"longitude": 12.4962233
+				}
+			]]>
+		</dynamic-content>
+	</dynamic-element>
+</root>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element index-type="keyword" instance-id="vqkohzek" name="Textbiyy" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Thailand]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="ansbqggh" name="Image1qfb" type="image">
+		<dynamic-content language-id="en_US"><![CDATA[[$JSON_thailand.jpg$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="lgkeegmy" name="Content" type="text_area">
+		<dynamic-content language-id="en_US"><![CDATA[<p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew). Nearby beach resorts include bustling Pattaya and fashionable Hua Hin.</p>]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="keyword" instance-id="kjamlecd" name="Geolocation7xe3" type="ddm-geolocation">
+		<dynamic-content language-id="en_US">
+			<![CDATA[
+				{
+					"latitude": 15.870032,
+					"longitude": 100.992541
+				}
+			]]>
+		</dynamic-content>
+	</dynamic-element>
+</root>

@@ -2,6 +2,12 @@
 	"articleId": "WEB-CONTENT-01",
 	"ddmStructureKey": "DESTINATION",
 	"ddmTemplateKey": "DESTINATION-TEMPLATE",
+	"description": "Amsterdam is the Netherlands’ capital, known for its artistic heritage.",
 	"folder": "Destinations",
-	"name": "Amsterdam"
+	"name": "Amsterdam",
+	"tags": [
+		"destination",
+		"amsterdam",
+		"europe"
+	]
 }

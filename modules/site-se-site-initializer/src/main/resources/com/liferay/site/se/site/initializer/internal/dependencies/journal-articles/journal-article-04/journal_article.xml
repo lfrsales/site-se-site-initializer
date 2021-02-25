@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element index-type="keyword" instance-id="ckheikgh" name="Textbiyy" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Prague]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="oeitjlet" name="Image1qfb" type="image">
+		<dynamic-content language-id="en_US"><![CDATA[[$JSON_prague.jpg$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="fozqmfqg" name="Content" type="text_area">
+		<dynamic-content language-id="en_US"><![CDATA[<p>Prague, capital city of the Czech Republic, is bisected by the Vltava River. Nicknamed "the City of a Hundred Spires," it's known for its Old Town Square, the heart of its historic core, with colorful baroque buildings, Gothic churches and the medieval Astronomical Clock, which gives an animated hourly show. Completed in 1402, pedestrian Charles Bridge is lined with statues of Catholic saints.</p>]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="keyword" instance-id="tznougcb" name="Geolocation7xe3" type="ddm-geolocation">
+		<dynamic-content language-id="en_US">
+			<![CDATA[
+				{
+					"latitude": 50.0756294,
+					"longitude": 14.4379472
+				}
+			]]>
+		</dynamic-content>
+	</dynamic-element>
+</root>

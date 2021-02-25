@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 
 <root available-locales="en_US" default-locale="en_US">
-	<dynamic-element name="Textbiyy" type="text" index-type="keyword" instance-id="clxalpor">
-		<dynamic-content language-id="en_US">
-		<![CDATA[Amsterdam]]>
-		
-		<![CDATA[$JSON_test.png$]]>
-		</dynamic-content>
+	<dynamic-element index-type="keyword" instance-id="clxalpor" name="Textbiyy" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Amsterdam]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="Image1qfb" type="image" index-type="text" instance-id="bvxddyww">
-		<dynamic-content language-id="en_US"><![CDATA[{"classPK":38346,"groupId":"37269","name":"amsterdam.jpg","alt":"","title":"amsterdam.jpg","type":"document","uuid":"fd9842fa-255b-9f4f-c82c-c7f478a9cf7f","fileEntryId":"38346","resourcePrimKey":"52375"}]]></dynamic-content>
+	<dynamic-element index-type="text" instance-id="bvxddyww" name="Image1qfb" type="image">
+		<dynamic-content language-id="en_US"><![CDATA[[$JSON_amsterdam.jpg$]]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="Content" type="text_area" index-type="text" instance-id="cileiano">
-		<dynamic-content language-id="en_US"><![CDATA[<p>Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’s 17th-century Golden Age. Its Museum District houses the Van Gogh Museum, works by Rembrandt and Vermeer at the Rijksmuseum, and modern art at the Stedelijk. Cycling is key to the city’s character, and there are numerous bike paths.</p>]]></dynamic-content>
+	<dynamic-element index-type="text" instance-id="cileiano" name="Content" type="text_area">
+		<dynamic-content language-id="en_US"><![CDATA[<p>Amsterdam is the Netherlands' capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city's 17th-century Golden Age. Its Museum District houses the Van Gogh Museum, works by Rembrandt and Vermeer at the Rijksmuseum, and modern art at the Stedelijk. Cycling is key to the city's character, and there are numerous bike paths.</p>]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="Geolocation7xe3" type="ddm-geolocation" index-type="keyword" instance-id="zabinhxs">
-		<dynamic-content language-id="en_US"><![CDATA[{"latitude":52.3675119,"longitude":4.9039955}]]></dynamic-content>
+	<dynamic-element index-type="keyword" instance-id="zabinhxs" name="Geolocation7xe3" type="ddm-geolocation">
+		<dynamic-content language-id="en_US"><![CDATA[
+			{
+				"latitude": 52.3675119,
+				"longitude": 4.9039955
+			}
+		]]></dynamic-content>
 	</dynamic-element>
 </root>

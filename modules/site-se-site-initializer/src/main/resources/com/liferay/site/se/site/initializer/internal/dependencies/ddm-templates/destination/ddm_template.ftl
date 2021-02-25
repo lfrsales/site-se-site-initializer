@@ -1,8 +1,8 @@
 <div class="component-card text-break">
 	<div class="card m-0 overflow-hidden">
 		<#if (Image1qfb.getData())?? && Image1qfb.getData() != "">
-        	<img alt="${Image1qfb.getAttribute("alt")}" class="w-100" data-fileentryid="${Image1qfb.getAttribute("fileEntryId")}" src="${Image1qfb.getData()}" />
-        </#if>
+			<img alt="${Image1qfb.getAttribute("alt")}" class="w-100" data-fileentryid="${Image1qfb.getAttribute("fileEntryId")}" src="${Image1qfb.getData()}" />
+		</#if>
 
 		<div class="card-body py-4">
 			<h2 class="clearfix">

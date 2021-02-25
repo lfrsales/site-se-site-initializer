@@ -1,0 +1,9 @@
+{
+	"contentSubtype": {
+		"subtypeId": "[£DESTINATION£]"
+	},
+	"contentType": {
+		"className": "com.liferay.journal.model.JournalArticle"
+	},
+	"name": "Destination Page Template"
+}

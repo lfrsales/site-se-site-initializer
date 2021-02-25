@@ -1,0 +1,660 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragment": {
+						"key": "FORMED_COMPONENTS_FRAGMENTS-background-gradient-container"
+					},
+					"fragmentConfig": {
+						"angle": "90deg",
+						"finishingColor": "#330ad5",
+						"startingColor": "#ee0979"
+					},
+					"fragmentFields": [
+					],
+					"fragmentStyle": {
+						"backgroundFragmentImage": {
+						},
+						"borderRadius": "",
+						"borderWidth": "0",
+						"fontFamily": "",
+						"fontSize": "",
+						"fontWeight": "",
+						"height": "",
+						"marginBottom": "",
+						"marginLeft": "",
+						"marginRight": "",
+						"marginTop": "",
+						"maxHeight": "",
+						"maxWidth": "",
+						"minHeight": "",
+						"minWidth": "",
+						"opacity": "100",
+						"overflow": "",
+						"paddingBottom": "",
+						"paddingLeft": "",
+						"paddingRight": "",
+						"paddingTop": "",
+						"shadow": "",
+						"textAlign": "",
+						"width": ""
+					}
+				},
+				"pageElements": [
+					{
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "FORMED_COMPONENTS_FRAGMENTS-display-heading"
+									},
+									"fragmentConfig": {
+										"headingLevel": "display-4"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"text": {
+													"value_i18n": {
+														"en_US": "Dashboard"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "0",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "5",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "5",
+										"shadow": "",
+										"textAlign": "center",
+										"textColor": "whiteColor",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragmentStyle": {
+						"backgroundFragmentImage": {
+						},
+						"borderRadius": "",
+						"borderWidth": "0",
+						"fontFamily": "",
+						"fontSize": "",
+						"fontWeight": "",
+						"height": "",
+						"marginBottom": "4",
+						"marginLeft": "",
+						"marginRight": "",
+						"marginTop": "4",
+						"maxHeight": "",
+						"maxWidth": "",
+						"minHeight": "",
+						"minWidth": "",
+						"opacity": "100",
+						"overflow": "",
+						"paddingBottom": "",
+						"paddingLeft": "",
+						"paddingRight": "",
+						"paddingTop": "",
+						"shadow": "",
+						"textAlign": "",
+						"width": ""
+					},
+					"gutters": true,
+					"modulesPerRow": 3,
+					"numberOfColumns": 3,
+					"rowViewports": [
+						{
+							"id": "landscapeMobile",
+							"rowViewportDefinition": {
+							}
+						},
+						{
+							"id": "portraitMobile",
+							"rowViewportDefinition": {
+							}
+						},
+						{
+							"id": "tablet",
+							"rowViewportDefinition": {
+							}
+						}
+					]
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"columnViewports": [
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "landscapeMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "tablet"
+								}
+							],
+							"size": 4
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BILLBOARD_FRAGMENTS-donutChart"
+									},
+									"fragmentConfig": {
+										"data": "[[\"data1\", 30],[\"data2\", 120],[\"data3\", 75]]",
+										"title": "Donut Chart Title"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "",
+										"shadow": "",
+										"textAlign": "",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Column"
+					},
+					{
+						"definition": {
+							"columnViewports": [
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "landscapeMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "tablet"
+								}
+							],
+							"size": 4
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BILLBOARD_FRAGMENTS-areaChart"
+									},
+									"fragmentConfig": {
+										"data": "[[\"data1\", 300, 350, 300, 0, 0, 0],[\"data2\", 130, 100, 140, 200, 150, 50]]"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "",
+										"shadow": "",
+										"textAlign": "",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Column"
+					},
+					{
+						"definition": {
+							"columnViewports": [
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "landscapeMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "tablet"
+								}
+							],
+							"size": 4
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BILLBOARD_FRAGMENTS-barChart"
+									},
+									"fragmentConfig": {
+										"data": "[[\"data1\", 100, 20, 30], [\"data2\", 20, 70, 100]]"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "",
+										"shadow": "",
+										"textAlign": "",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Column"
+					}
+				],
+				"type": "Row"
+			},
+			{
+				"definition": {
+					"fragmentStyle": {
+						"backgroundFragmentImage": {
+						},
+						"borderRadius": "",
+						"borderWidth": "0",
+						"fontFamily": "",
+						"fontSize": "",
+						"fontWeight": "",
+						"height": "",
+						"marginBottom": "4",
+						"marginLeft": "",
+						"marginRight": "",
+						"marginTop": "4",
+						"maxHeight": "",
+						"maxWidth": "",
+						"minHeight": "",
+						"minWidth": "",
+						"opacity": "100",
+						"overflow": "",
+						"paddingBottom": "",
+						"paddingLeft": "",
+						"paddingRight": "",
+						"paddingTop": "",
+						"shadow": "",
+						"textAlign": "",
+						"width": ""
+					},
+					"gutters": true,
+					"modulesPerRow": 3,
+					"numberOfColumns": 3,
+					"rowViewports": [
+						{
+							"id": "landscapeMobile",
+							"rowViewportDefinition": {
+							}
+						},
+						{
+							"id": "portraitMobile",
+							"rowViewportDefinition": {
+							}
+						},
+						{
+							"id": "tablet",
+							"rowViewportDefinition": {
+							}
+						}
+					]
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"columnViewports": [
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "landscapeMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "tablet"
+								}
+							],
+							"size": 4
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BILLBOARD_FRAGMENTS-lineChart"
+									},
+									"fragmentConfig": {
+										"data": "[[\"data1\", 30, 200, 100, 400, 150, 250], [\"data2\", 50, 20, 10, 40, 15, 25]]"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "",
+										"shadow": "",
+										"textAlign": "",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Column"
+					},
+					{
+						"definition": {
+							"columnViewports": [
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "landscapeMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "tablet"
+								}
+							],
+							"size": 4
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BILLBOARD_FRAGMENTS-barChart"
+									},
+									"fragmentConfig": {
+										"data": "[[\"data1\", 100, 20, 30], [\"data2\", 20, 70, 100]]"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "",
+										"shadow": "",
+										"textAlign": "",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Column"
+					},
+					{
+						"definition": {
+							"columnViewports": [
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "landscapeMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"columnViewportDefinition": {
+									},
+									"id": "tablet"
+								}
+							],
+							"size": 4
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BILLBOARD_FRAGMENTS-radarChart"
+									},
+									"fragmentConfig": {
+										"axisMax": "400",
+										"clockwise": true,
+										"data": "[[\"x\", \"Data A\", \"Data B\", \"Data C\", \"Data D\", \"Data E\"],[\"data1\", 330, 350, 200, 380, 150],[\"data2\", 130, 100, 30, 200, 80],[\"data3\", 230, 153, 85, 300, 250]]",
+										"levelDepth": "4"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"backgroundFragmentImage": {
+										},
+										"borderRadius": "",
+										"borderWidth": "0",
+										"fontFamily": "",
+										"fontSize": "",
+										"fontWeight": "",
+										"height": "",
+										"marginBottom": "",
+										"marginLeft": "",
+										"marginRight": "",
+										"marginTop": "",
+										"maxHeight": "",
+										"maxWidth": "",
+										"minHeight": "",
+										"minWidth": "",
+										"opacity": "100",
+										"overflow": "",
+										"paddingBottom": "",
+										"paddingLeft": "",
+										"paddingRight": "",
+										"paddingTop": "",
+										"shadow": "",
+										"textAlign": "",
+										"width": ""
+									}
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Column"
+					}
+				],
+				"type": "Row"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "INTEGRATIONS_FRAGMENTS-tableau"
+					},
+					"fragmentConfig": {
+						"hostUrl": "https://public.tableau.com",
+						"reportName": "WorldIndicators/GDPpercapita",
+						"siteRoot": ""
+					},
+					"fragmentFields": [
+					],
+					"fragmentStyle": {
+						"backgroundFragmentImage": {
+						},
+						"borderRadius": "",
+						"borderWidth": "0",
+						"fontFamily": "",
+						"fontSize": "",
+						"fontWeight": "",
+						"height": "",
+						"marginBottom": "",
+						"marginLeft": "",
+						"marginRight": "",
+						"marginTop": "",
+						"maxHeight": "",
+						"maxWidth": "",
+						"minHeight": "",
+						"minWidth": "",
+						"opacity": "100",
+						"overflow": "",
+						"paddingBottom": "",
+						"paddingLeft": "",
+						"paddingRight": "",
+						"paddingTop": "",
+						"shadow": "",
+						"textAlign": "",
+						"width": ""
+					}
+				},
+				"type": "Fragment"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"themeName": "73 Formed Theme",
+		"themeSettings": {
+			"lfr-theme:regular:enable-sticky-header": "on",
+			"lfr-theme:regular:show-language-selector": "on",
+			"lfr-theme:regular:use-sign-in-modal": "on"
+		}
+	}
+}

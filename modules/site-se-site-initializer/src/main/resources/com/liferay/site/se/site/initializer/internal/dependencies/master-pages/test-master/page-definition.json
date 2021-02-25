@@ -1,0 +1,106 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragment": {
+						"key": "NAVIGATION_BARS-header-dark"
+					},
+					"fragmentConfig": {
+					},
+					"fragmentFields": [
+						{
+							"id": "01-logo",
+							"value": {
+								"fragmentImage": {
+									"url": {
+										"value_i18n": {
+										}
+									}
+								},
+								"fragmentLink": {
+									"href": {
+										"value": "[$LAYOUT_URL_HOME$]"
+									}
+								}
+							}
+						},
+						{
+							"id": "03-link",
+							"value": {
+								"fragmentLink": {
+									"href": {
+										"value": "#"
+									}
+								}
+							}
+						}
+					],
+					"fragmentStyle": {
+						"backgroundFragmentImage": {
+						},
+						"borderRadius": "",
+						"borderWidth": "0",
+						"fontFamily": "",
+						"fontSize": "",
+						"fontWeight": "",
+						"height": "",
+						"marginBottom": "",
+						"marginLeft": "",
+						"marginRight": "",
+						"marginTop": "",
+						"maxHeight": "",
+						"maxWidth": "",
+						"minHeight": "",
+						"minWidth": "",
+						"opacity": "100",
+						"overflow": "",
+						"paddingBottom": "",
+						"paddingLeft": "",
+						"paddingRight": "",
+						"paddingTop": "",
+						"shadow": "",
+						"textAlign": "",
+						"width": ""
+					},
+					"widgetInstances": [
+						{
+							"widgetConfig": {
+								"displayDepth": "0",
+								"displayStyle": "ddmTemplate_NAVBAR-BLANK-FTL",
+								"displayStyleGroupId": "[$SCOPE_GROUP_ID$]",
+								"expandedLevels": "auto",
+								"rootMenuItemLevel": "0",
+								"rootMenuItemType": "absolute",
+								"siteNavigationMenuId": "[$PUBLIC_SITE_NAVIGATION_MENU_ID$]",
+								"siteNavigationMenuType": "-1"
+							},
+							"widgetName": "com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"
+						}
+					]
+				},
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragmentSettings": {
+						"unallowedFragments": [
+						]
+					}
+				},
+				"type": "DropZone"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"themeName": "Classic",
+		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	}
+}

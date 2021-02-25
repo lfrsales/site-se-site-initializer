@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element index-type="keyword" instance-id="hoybhwxl" name="Textbiyy" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[London]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="rloijzzt" name="Image1qfb" type="image">
+		<dynamic-content language-id="en_US"><![CDATA[[$JSON_london.jpg$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" instance-id="rdtpswus" name="Content" type="text_area">
+		<dynamic-content language-id="en_US"><![CDATA[<p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic 'Big Ben' clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="keyword" instance-id="jgdgyekk" name="Geolocation7xe3" type="ddm-geolocation">
+		<dynamic-content language-id="en_US">
+			<![CDATA[
+				{
+					"latitude": 51.5073509,
+					"longitude": -0.1277583
+				}
+			]]>
+		</dynamic-content>
+	</dynamic-element>
+</root>

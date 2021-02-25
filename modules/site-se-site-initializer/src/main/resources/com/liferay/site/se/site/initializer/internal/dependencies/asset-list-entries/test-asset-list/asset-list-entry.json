@@ -1,0 +1,5 @@
+{
+	"className": "com.liferay.journal.model.JournalArticle",
+	"ddmStructureKey": "DESTINATION",
+	"name": "Destinations List"
+}
