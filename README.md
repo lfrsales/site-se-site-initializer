@@ -6,10 +6,6 @@ Developed to run on the following versions of Liferay: `Liferay DXP 7.3`
 
 Built with [Liferay Workspace](https://help.liferay.com/hc/en-us/articles/360029147471-Liferay-Workspace) and [Blade CLI](https://help.liferay.com/hc/en-us/articles/360029147071-Blade-CLI).
 
-*Include an image or gif that represents your project*
-
-![screenshot](https://placedog.net/500?id=12)
-
 ## How to Build and Deploy to Liferay
 
 Follow the steps below to build and deploy or copy the modules from the [releases](../../releases/latest) page to your Liferay's deploy folder.
@@ -33,14 +29,13 @@ liferay.workspace.home.dir=/path/to/liferay/home
 
 ## Usage
 
-[Adding Widgets to a Page.](https://learn.liferay.com/dxp/7.x/en/site-building/creating-pages/using-widget-pages/adding-widgets-to-a-page.html)
-
-*Explain what's required to set up and make use of all of the projects features.*
+To use, create a new site and select the `SE Demo Site` template.
 
 ### Features
 
 When deployed this module will create a new site template that will be auto populated with the content and resources from the dependencies folder of this project. The site initializer will import content and resources that follow the following format:
 
+```
 ├── resources
 │   ├── META-INF
 │   │   └── resources
@@ -101,5 +96,6 @@ When deployed this module will create a new site template that will be auto popu
             ├── frontend-tokens-values.json
             ├── style-book.json
             └── thumbnail.png
+```
 
 ## Issues & Questions Welcome
