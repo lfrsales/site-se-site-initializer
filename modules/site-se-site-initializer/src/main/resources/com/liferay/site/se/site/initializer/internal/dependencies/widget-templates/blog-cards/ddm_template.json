@@ -1,0 +1,5 @@
+{
+	"className": "com.liferay.blogs.model.BlogsEntry",
+	"ddmTemplateKey": "BLOG-CARDS",
+	"name": "Blog Cards"
+}

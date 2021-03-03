@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+
+<root>
+	<structure>
+		<name>FAQs</name>
+		<description></description>
+		<definition>
+			<![CDATA[
+				{
+					"availableLanguageIds": [
+						"en_US"
+					],
+					"defaultLanguageId": "en_US",
+					"fields": [
+						{
+							"dataType": "string",
+							"indexType": "keyword",
+							"label": {
+								"en_US": "Global Header"
+							},
+							"localizable": true,
+							"name": "GlobalHeader",
+							"nestedFields": [
+								{
+									"dataType": "string",
+									"indexType": "keyword",
+									"label": {
+										"en_US": "Question"
+									},
+									"localizable": true,
+									"name": "Question",
+									"nestedFields": [
+										{
+											"dataType": "html",
+											"fieldNamespace": "ddm",
+											"indexType": "text",
+											"label": {
+												"en_US": "Answer"
+											},
+											"localizable": true,
+											"name": "Answer",
+											"predefinedValue": {
+												"en_US": ""
+											},
+											"readOnly": false,
+											"repeatable": false,
+											"required": true,
+											"showLabel": true,
+											"style": {
+												"en_US": ""
+											},
+											"tip": {
+												"en_US": ""
+											},
+											"type": "ddm-text-html"
+										},
+										{
+											"dataType": "link-to-page",
+											"fieldNamespace": "ddm",
+											"indexType": "keyword",
+											"label": {
+												"en_US": "Link"
+											},
+											"localizable": true,
+											"name": "Link",
+											"predefinedValue": {
+												"en_US": ""
+											},
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"style": {
+												"en_US": ""
+											},
+											"tip": {
+												"en_US": ""
+											},
+											"type": "ddm-link-to-page"
+										}
+									],
+									"predefinedValue": {
+										"en_US": ""
+									},
+									"readOnly": false,
+									"repeatable": true,
+									"required": true,
+									"showLabel": true,
+									"style": {
+										"en_US": ""
+									},
+									"tip": {
+										"en_US": ""
+									},
+									"type": "text"
+								}
+							],
+							"predefinedValue": {
+								"en_US": ""
+							},
+							"readOnly": false,
+							"repeatable": true,
+							"required": true,
+							"showLabel": true,
+							"style": {
+								"en_US": ""
+							},
+							"tip": {
+								"en_US": ""
+							},
+							"type": "text"
+						}
+					]
+				}
+			]]>
+		</definition>
+	</structure>
+</root>
