@@ -31,6 +31,9 @@ liferay.workspace.home.dir=/path/to/liferay/home
 
 To use, create a new site and select the `SE Demo Site` template.
 
+### DEPENDENCIES NOTE:
+> This site initializer depends on the [Demo Fragment Collections](https://github.com/lfrsales/demo-fragment-collections) fragments. These modules must be deployed in order for the site initializer to be able to properly instantiate it's pages.
+
 ### Features
 
 When deployed this module will create a new site template that will be auto populated with the content and resources from the dependencies folder of this project. The site initializer will import content and resources that follow the following format:
