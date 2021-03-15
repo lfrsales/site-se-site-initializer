@@ -40,6 +40,7 @@ import com.liferay.layout.util.LayoutCopyHelper;
 import com.liferay.layout.util.structure.LayoutStructure;
 import com.liferay.petra.string.StringBundler;
 import com.liferay.petra.string.StringPool;
+import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.json.JSONArray;
 import com.liferay.portal.kernel.json.JSONFactoryUtil;
 import com.liferay.portal.kernel.json.JSONObject;
@@ -488,9 +489,14 @@ public class SESiteInitializer implements SiteInitializer {
 		File file = _generateZipFile(
 			pathKeyValuePairs, numberValuesMap, stringValuesMap);
 
-		_layoutPageTemplatesImporter.importFile(
-			_serviceContext.getUserId(), _serviceContext.getScopeGroupId(),
-			file, false);
+		try {
+			_layoutPageTemplatesImporter.importFile(
+				_serviceContext.getUserId(), _serviceContext.getScopeGroupId(),
+				file, false);
+		}
+		catch (Exception e) {
+			_log.error(e);
+		}
 	}
 
 	private void _addLayouts() throws Exception {
@@ -930,8 +936,7 @@ public class SESiteInitializer implements SiteInitializer {
 	}
 
 	private void _importPageDefinition(
-			Layout draftLayout, JSONObject pageDefinitionJSONObject)
-		throws Exception {
+		Layout draftLayout, JSONObject pageDefinitionJSONObject) {
 
 		if (!pageDefinitionJSONObject.has("pageElement")) {
 			return;
@@ -946,10 +951,19 @@ public class SESiteInitializer implements SiteInitializer {
 			return;
 		}
 
-		LayoutPageTemplateStructure layoutPageTemplateStructure =
-			_layoutPageTemplateStructureLocalService.
-				fetchLayoutPageTemplateStructure(
-					draftLayout.getGroupId(), draftLayout.getPlid(), true);
+		LayoutPageTemplateStructure layoutPageTemplateStructure;
+
+		try {
+			layoutPageTemplateStructure =
+				_layoutPageTemplateStructureLocalService.
+					fetchLayoutPageTemplateStructure(
+						draftLayout.getGroupId(), draftLayout.getPlid(), true);
+		}
+		catch (PortalException pe) {
+			_log.error(pe);
+
+			return;
+		}
 
 		LayoutStructure layoutStructure = LayoutStructure.of(
 			layoutPageTemplateStructure.getData(
@@ -959,9 +973,15 @@ public class SESiteInitializer implements SiteInitializer {
 			"pageElements");
 
 		for (int j = 0; j < pageElementsJSONArray.length(); j++) {
-			_layoutPageTemplatesImporter.importPageElement(
-				draftLayout, layoutStructure, layoutStructure.getMainItemId(),
-				pageElementsJSONArray.getString(j), j);
+			try {
+				_layoutPageTemplatesImporter.importPageElement(
+					draftLayout, layoutStructure,
+					layoutStructure.getMainItemId(),
+					pageElementsJSONArray.getString(j), j);
+			}
+			catch (Exception e) {
+				_log.error(e);
+			}
 		}
 	}
 
