@@ -101,4 +101,30 @@ When deployed this module will create a new site template that will be auto popu
             └── thumbnail.png
 ```
 
+### Adding Application Display Templates (Widget Templates)
+
+New widget templates can be added to the directory `modules/site-se-site-initializer/src/main/resources/com/liferay/site/se/site/initializer/internal/dependencies/widget-templates`.
+
+Create a new folder in the widget-templates directory using the hyphen separated name for your wiget template.
+
 ## Issues & Questions Welcome
+
+## Contributing Guidelines
+
+Pull requests welcome.
+
+### Releasing
+
+Releases are handled using Github actions.
+
+To release a new version do the following:
+
+1. Create a git tag.
+
+	1. `git tag v0.0.1`
+
+1. Push the tag to Github.
+
+	1. `git push origin v0.0.1`
+
+The Github action will be triggered and will attach all assets to the release.
